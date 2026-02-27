@@ -58,9 +58,6 @@ To completely stop and remove all containers and volumes:
 ./vendor/bin/sail down -v
 ```
 
-## Time spent
-More than 3 hours
-
 ## Notes
 
 1. **Route → Single Action Controller → Form Request → DTO → Service → Model → Resource architecture** (SRP) - This is over-engineering for a simple project with some code duplication in its implementation, but this architecture could be beneficial if the project will be scaled up
