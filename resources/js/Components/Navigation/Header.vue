@@ -16,7 +16,7 @@ import { Link } from '@inertiajs/vue3';
                             </svg>
                         </div>
                         <h1 class="text-2xl font-bold text-gray-900 dark:text-white">
-                            Test Task Devigma
+                            Booking Management MVP
                         </h1>
                     </Link>
                 </div>

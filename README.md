@@ -1,4 +1,29 @@
-# Test Task Devigma
+# Booking Management MVP
+
+## Task
+
+### Requirements
+
+#### Backend (Laravel 10+)
+
+- Create models/migrations for:
+  - User (you can use Laravel Breeze or Sanctum for auth)
+  - Booking with fields: user_id, date, time_slot, status (enum: booked, cancelled)
+- Add API routes for:
+  - POST /api/bookings - Create a booking
+  - GET /api/bookings - List bookings for the authenticated user
+  - PATCH /api/bookings/{id}/cancel - Cancel a booking
+- Use validation and proper error handling
+- Optional: write one PHPUnit test for the booking creation logic
+
+#### Frontend (Vue 3 + Composition API)
+
+- Create a simple UI with:
+  - Form to create a new booking (date picker + time slot select)
+  - Table/list showing current user's bookings
+  - Button to cancel bookings
+- Use Axios to communicate with the backend
+- Use Tailwind or Bootstrap (optional)
 
 ### Technologies Used
 
@@ -15,7 +40,7 @@
 ### 1. Add to hosts file
 
 ```
-127.0.0.1 test-task-devigma.test
+127.0.0.1 booking-management-mvp.test
 ```
 
 ### 2. Run the project
@@ -33,7 +58,7 @@ This command will automatically:
 
 ### 3. Access the application
 
-**Application URL**: http://test-task-devigma.test
+**Application URL**: http://booking-management-mvp.test
 
 **Test login credentials**:
 - Email: `test@example.com`
@@ -41,12 +66,12 @@ This command will automatically:
 
 ### 4. Database connection
 
-Use `devigma` database for regular application and `devigma_test` for testing.
+Use `booking_management` database for regular application and `booking_management_test` for testing.
 
 **Connection settings**:
 - Host: `localhost` (or `127.0.0.1`)
 - Port: `3307`
-- Database: `devigma`
+- Database: `booking_management`
 - Username: `sail`
 - Password: `password`
 

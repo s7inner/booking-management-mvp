@@ -32,4 +32,4 @@ setup:
 	@echo "Building frontend assets..."
 	@./vendor/bin/sail npm run build
 	@echo "Setup complete! Your application is ready."
-	@echo "Application URL: http://test-task-devigma.test"
+	@echo "Application URL: http://booking-management-mvp.test"

@@ -22,7 +22,7 @@ defineProps({
 </script>
 
 <template>
-    <Head title="Welcome - Test Task Devigma" />
+    <Head title="Welcome - Booking Management MVP" />
 
     <div class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
         <!-- Header -->
@@ -33,7 +33,7 @@ defineProps({
             <!-- Hero Section -->
             <div class="text-center mb-16">
                 <h2 class="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-                    Welcome to Test Task Devigma
+                    Welcome to Booking Management MVP
                 </h2>
                 <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
                     This page demonstrates the integration of modern web technologies in a single repository setup.
