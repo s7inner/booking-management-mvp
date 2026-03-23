@@ -1,8 +1,6 @@
 # Booking Management MVP
 
-## Task
-
-### Requirements
+### Task
 
 #### Backend (Laravel 10+)
 
